@@ -5,7 +5,16 @@ A criação desse projeto foi para aprimorar e por em prática o meu conheciment
 
 <img src="images/project.png">
 
+<br>
+
+<img src="images/prevAndNext.png">
+
+ - O botão <b>Próximas</b> aparece se o resultado da pesquisa for maior que 25, ao clicar nele irá carregar mais músicas relacionadas à pesquisa feita pelo usuário.
+ - O botão <b>Anteriores</b> aparece ao clicar no botão <b>Próximas</b>, para que o usuário volte para as músicas anteriores.
+
+
 <a href="https://iammatheus.github.io/search-lyrics-two-api">Visualizar Projeto</a>
+
 
 <br>
 
