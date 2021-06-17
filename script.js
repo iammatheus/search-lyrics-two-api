@@ -66,12 +66,12 @@ const insertMusicIntoPage = async ({ data, prev, next }) => {
             <div class="fill-time" id="fill-time"></div>
           </div>
           <div class="play-pause">
-            <i class="fas fa-play" id="fas" data-audio="${preview}"></i>
+            <i class="fas fa-play" id="fas" data-audio="${corsUrl}${preview}"></i>
           </div> 
           <p>Preview</p>
       </div>
 
-      <audio id="audio" src="${preview}"></audio>
+      <audio id="audio" src="${corsUrl}${preview}"></audio>
         
       </aside>
 
@@ -108,12 +108,12 @@ const searchMusic = async (music) => {
   insertMusicIntoPage(data);
 };
 
-const getMoreMusic = async (music, e) => {
+const getMoreMusic = async (music) => {
   const data = await fetchData(`${corsUrl}${music}`);
   insertMusicIntoPage(data);
 };
 
-form.addEventListener("submit", (e) => {
+form.addEventListener("submit", e => {
   e.preventDefault();
 
   const searchTerm = searchInput.value.trim().replaceAll("/"," ")
