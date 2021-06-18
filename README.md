@@ -1,4 +1,6 @@
-# O Projeto
+# Buscador de letras e músicas
+
+## Sobre
 Projeto para pesquisar letras de músicas/bandas através da API do Deezer e Vagalume, com adicional de mostrar prévia das músicas, nome e imagem do álbum.
 
 A criação desse projeto foi para aprimorar e por em prática o meu conhecimento na linguagem JavaScript.
